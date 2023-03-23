@@ -1,12 +1,29 @@
-/* nav:["archives"]=
-    
+export default{
+    data:{
+        about:{
+            title: "",
+            paragranph: "",
+        },
+       
+    }
+}
+nav:[
     {
-        title: "",
+        title:"archives",
         link:[
             {
-                name: "",
-                href:"",
+            name:"",
+            href:"",
             }
-        ]   
-    }
-] */
+        ],
+    },
+    {
+        title:"elsewhere",
+        link:[
+            {
+            }
+        ]
+    },
+]
+
+   

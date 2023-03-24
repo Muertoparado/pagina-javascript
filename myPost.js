@@ -10,7 +10,40 @@ export default{
               name:"continue",
               href:"#"
                },
-      }         
+      },
+      {
+        articule:"nnnnn",
+        title: "titulos",
+        date:"12 mar",
+        paragraph:"loremadsasdasdasdasd",
+        image:"img....",
+          btn:{
+            name:"continue",
+            href:"#"
+             },
+    }, 
+    {
+      articule:"bbbbbqw",
+      title: "titulos",
+      date:"12 mar",
+      paragraph:"loremadsasdasdasdasd",
+      image:"img....",
+        btn:{
+          name:"continue",
+          href:"#"
+           },
+  }, 
+  {
+    articule:"zzzzzz",
+    title: "titulos",
+    date:"12 mar",
+    paragraph:"loremadsasdasdasdasd",
+    image:"img....",
+      btn:{
+        name:"continue",
+        href:"#"
+         },
+}          
     ],
     showPost(){
         this.post.forEach((val,id)=>{

@@ -1,8 +1,9 @@
 export default{
     data:{
         about:{
-            title: "",
-            paragranph: "",
+            title: "xcvxcv",
+            paragranph: "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+            
         },
        
     },
@@ -30,8 +31,8 @@ showAside() {
     const data = this.nav.map((val,id)=>{
         return(
             (val.link)
-            ? this.list(val)
-            : this.card(val)
+            ?this.list(val)
+            :this.card(val)
         );
     });
     document.querySelector("#nav").insertAdjacentHTML("beforeend",

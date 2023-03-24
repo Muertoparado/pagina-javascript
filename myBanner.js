@@ -1,5 +1,5 @@
 export default{
-    image=""
+    image:"",
 
     btn:{
         name: "Continuar"
@@ -7,5 +7,5 @@ export default{
     showImage(){
         document.querySelector(".imgStyle").getElementsByClassName.backgroundImage = `url(${this.image})`;
     },
-    showSectionBanner
+    /* showSectionBanner */
 }
